@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jgate test automation test suite" >
+
+ <!--    <listeners>
+           <listener class-name="com.ExtendReportListner.ExtentReport" />
+    </listeners>
+ -->
+
+  <test name="jgate test cases" >
+  
+  
+    <classes>
+      <!-- <class name="com.jgate.testcases.LoginpageTest"></class>  -->
+     <class name="com.jgate.testcases.HomepageTest"></class>  
+     <!--   <class name="com.jgate.testcases.JournalFinderTest"></class> 
+       <class name="com.jgate.testcases.Resultspagetest"></class>   
+       <class name="com.jgate.testcases.extenttestng"></class>   -->
+       
+    </classes>
+  </test> 
+</suite> 

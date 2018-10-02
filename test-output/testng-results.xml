@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Jgate test automation test suite" duration-ms="52129" started-at="2018-09-28T11:28:48Z" finished-at="2018-09-28T11:29:40Z">
+    <groups>
+    </groups>
+    <test name="jgate test cases" duration-ms="52129" started-at="2018-09-28T11:28:48Z" finished-at="2018-09-28T11:29:40Z">
+      <class name="com.jgate.testcases.HomepageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.jgate.testcases.HomepageTest@1794d431]" name="Setup" is-config="true" duration-ms="28206" started-at="2018-09-28T11:28:48Z" finished-at="2018-09-28T11:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifyresultspage()[pri:1, instance:com.jgate.testcases.HomepageTest@1794d431]" name="verifyresultspage" duration-ms="23727" started-at="2018-09-28T11:29:16Z" finished-at="2018-09-28T11:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyresultspage -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.jgate.testcases.HomepageTest@1794d431]" name="TearDown" is-config="true" duration-ms="30" started-at="2018-09-28T11:29:40Z" finished-at="2018-09-28T11:29:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyresultspage status=SUCCESS method=HomepageTest.verifyresultspage()[pri:1, instance:com.jgate.testcases.HomepageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.jgate.testcases.HomepageTest -->
+    </test> <!-- jgate test cases -->
+  </suite> <!-- Jgate test automation test suite -->
+</testng-results>

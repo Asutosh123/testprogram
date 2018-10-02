@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Command line suite</th></tr><tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">5</td><td class="num">0</td><td class="num">5,279</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.jgate.testcases.HomepageTest</td><td><a href="#m0">Setup</a></td><td rowspan="1">1531743069139</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.jgate.testcases.JournalFinderTest</td><td><a href="#m1">setup</a></td><td rowspan="1">1531743072797</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="1">com.jgate.testcases.LoginpageTest</td><td><a href="#m2">Setup</a></td><td rowspan="1">1531743073595</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.jgate.testcases.HomepageTest</td><td><a href="#m3">TearDown</a></td><td rowspan="1">1531743072796</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.jgate.testcases.JournalFinderTest</td><td><a href="#m4">teradown</a></td><td rowspan="1">1531743073594</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="5">com.jgate.testcases.LoginpageTest</td><td><a href="#m5">Setup</a></td><td rowspan="2">1531743074404</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m6">Setup</a></td></tr><tr class="skippedeven"><td><a href="#m7">tearDown</a></td><td rowspan="3">1531743074401</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m8">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m9">tearDown</a></td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.jgate.testcases.HomepageTest</td><td><a href="#m10">verifyresultspage</a></td><td rowspan="1">1531743072795</td><td rowspan="1">1</td></tr><tr class="skippedodd"><td rowspan="1">com.jgate.testcases.JournalFinderTest</td><td><a href="#m11">journalfinder</a></td><td rowspan="1">1531743073594</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="3">com.jgate.testcases.LoginpageTest</td><td><a href="#m12">jgatelogoimagetest</a></td><td rowspan="1">1531743074405</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m13">loginTest</a></td><td rowspan="1">1531743074401</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m14">loginpagetitletest</a></td><td rowspan="1">1531743074402</td><td rowspan="1">0</td></tr></tbody></table><h2>Command line test</h2><h3 id="m0">com.jgate.testcases.HomepageTest#Setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at com.baseclasses.TestBase.initialization(TestBase.java:59)
+	at com.jgate.testcases.HomepageTest.Setup(HomepageTest.java:37)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.jgate.testcases.JournalFinderTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at com.baseclasses.TestBase.initialization(TestBase.java:59)
+	at com.jgate.testcases.JournalFinderTest.setup(JournalFinderTest.java:27)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.jgate.testcases.LoginpageTest#Setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at com.baseclasses.TestBase.initialization(TestBase.java:59)
+	at com.jgate.testcases.LoginpageTest.Setup(LoginpageTest.java:24)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.jgate.testcases.HomepageTest#TearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.jgate.testcases.JournalFinderTest#teradown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.jgate.testcases.LoginpageTest#Setup</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.jgate.testcases.LoginpageTest#Setup</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.jgate.testcases.LoginpageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.jgate.testcases.LoginpageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.jgate.testcases.LoginpageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.jgate.testcases.HomepageTest#verifyresultspage</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">com.jgate.testcases.JournalFinderTest#journalfinder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">com.jgate.testcases.LoginpageTest#jgatelogoimagetest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">com.jgate.testcases.LoginpageTest#loginTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">com.jgate.testcases.LoginpageTest#loginpagetitletest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

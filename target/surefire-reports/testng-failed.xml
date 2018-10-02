@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.jgate.testcases.HomepageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="verifyresultspage"/>
+        </methods>
+      </class> <!-- com.jgate.testcases.HomepageTest -->
+      <class name="com.jgate.testcases.JournalFinderTest">
+        <methods>
+          <include name="journalfinder"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jgate.testcases.JournalFinderTest -->
+      <class name="com.jgate.testcases.LoginpageTest">
+        <methods>
+          <include name="loginpagetitletest"/>
+          <include name="loginTest"/>
+          <include name="jgatelogoimagetest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.jgate.testcases.LoginpageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

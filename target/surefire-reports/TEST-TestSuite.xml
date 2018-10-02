@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="3" name="TestSuite" time="6.78" errors="0" skipped="12">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\MyWorkspace\pomframework"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\asutosh.m\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\MyWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6764304791096697878.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_144\bin;E:\Appium _New\platform-tools;E:\Appium _New\tools;F:\Node\Node\;C:\Users\asutosh.m\AppData\Local\Microsoft\WindowsApps;C:\Users\asutosh.m\AppData\Roaming\npm;C:\Users\asutosh.m\Desktop\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\asutosh.m"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="asutosh.m"/>
+    <property name="java.class.path" value="/C:/Users/asutosh.m/Desktop/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_144"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\MyWorkspace\pomframework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.jgate.testcases.HomepageTest" name="Setup" time="5.159">
+    <failure message="Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at com.baseclasses.TestBase.initialization(TestBase.java:59)
+	at com.jgate.testcases.HomepageTest.Setup(HomepageTest.java:37)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@244038d0
+</system-out>
+    <system-err>1531743071033	geckodriver	INFO	geckodriver 0.19.0
+1531743071054	geckodriver	INFO	Listening on 127.0.0.1:13071
+</system-err>
+  </testcase>
+  <testcase classname="com.jgate.testcases.HomepageTest" name="verifyresultspage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.HomepageTest" name="TearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.JournalFinderTest" name="setup" time="0.805">
+    <failure message="Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at com.baseclasses.TestBase.initialization(TestBase.java:59)
+	at com.jgate.testcases.JournalFinderTest.setup(JournalFinderTest.java:27)
+</failure>
+    <system-err>1531743073022	geckodriver	INFO	geckodriver 0.19.0
+1531743073045	geckodriver	INFO	Listening on 127.0.0.1:9797
+</system-err>
+  </testcase>
+  <testcase classname="com.jgate.testcases.JournalFinderTest" name="journalfinder" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.JournalFinderTest" name="teradown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="Setup" time="0.805">
+    <failure message="Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;IIL-WS-4172&apos;, ip: &apos;192.168.10.164&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x4462ca - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7fff74321fe4 - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at com.baseclasses.TestBase.initialization(TestBase.java:59)
+	at com.jgate.testcases.LoginpageTest.Setup(LoginpageTest.java:24)
+</failure>
+    <system-err>1531743073830	geckodriver	INFO	geckodriver 0.19.0
+1531743073850	geckodriver	INFO	Listening on 127.0.0.1:47116
+</system-err>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="loginTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="Setup" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="loginpagetitletest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="tearDown" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="Setup" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="jgatelogoimagetest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.jgate.testcases.LoginpageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
